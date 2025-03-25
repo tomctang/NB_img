@@ -1,1 +1,0 @@
-Must remember that the geometric interpretation needs to incorporate the fact that it's scaled. impolicitly, you want to scale things so that max of each function is the same. think about f*g vs. f*2g.
