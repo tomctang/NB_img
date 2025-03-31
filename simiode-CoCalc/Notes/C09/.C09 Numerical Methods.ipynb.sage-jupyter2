@@ -1,0 +1,11 @@
+{"args":["--to","cocalc-html"],"start":1726499549135,"state":"done","time":1726499549166,"type":"nbconvert"}
+{"backend_state":"ready","kernel":"sage-9.6","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"last_ipynb_save":1726499765652,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.10.3"}},"trust":false,"type":"settings"}
+{"cell_type":"markdown","id":"3cc01b","input":"**Exercise 4.** Approximate $u(1)$ for the initial value problem $u' = u - 3t^2, u(0) = 1$  using Euclid's method with $h = 1, 0.1, 0.01, 0.001, 0.0001$ and compare with the actual value.","pos":4,"type":"cell"}
+{"cell_type":"markdown","id":"65283b","input":"**Exercise 6.** Approximate $u(1)$ for the initial value problem $u' = u - 3t^2, u(0) = 1$  using the fourth-order Runge-Kutta method with $h = 1, 0.1, 0.01, 0.001, 0.0001$ and compare with the actual value.","pos":6,"type":"cell"}
+{"cell_type":"markdown","id":"79e76f","input":"# C09-C10 Numerical Methods","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"c1c44f","input":"**Exercise 1.** Solve the logistic differential equation with a time varying carrying capacity $u' = u\\left(1 - \\dfrac{u}{1 + 0.25\\sin(2\\pi t)}\\right)$ and the initial condition $u(0) = 0.1$.  \n","pos":1,"type":"cell"}
+{"cell_type":"markdown","id":"d49330","input":"**Exercise 2.** Solve $u' = u - 3t^2$ with initial condition $u(0) = 1$, and find the values of $u(0.25), u(0.50), u(0.75), u(1.00)$. ","pos":2,"type":"cell"}
+{"cell_type":"markdown","id":"ea1211","input":"**Exercise 3.** Develop Euclid's Method.  Use it to approximate the solution to $u' = u - 3t^2, u(0) = 1$ at $t = 0.25, 0.50, 0.75, 1.00$.  Show the results graphically in comparison with the actual solution. ","pos":3,"type":"cell"}
+{"cell_type":"markdown","id":"fc0b10","input":"**Exercise 5.** Approximate $u(1)$ for the initial value problem $u' = u - 3t^2, u(0) = 1$  using the improved Euclid's method with $h = 1, 0.1, 0.01, 0.001, 0.0001$ and compare with the actual value.","pos":5,"type":"cell"}
+{"id":0,"time":1726498854810,"type":"user"}
+{"last_load":1726498854888,"type":"file"}

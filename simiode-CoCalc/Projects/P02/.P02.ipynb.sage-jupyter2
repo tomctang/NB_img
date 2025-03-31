@@ -1,0 +1,16 @@
+{"backend_state":"ready","kernel":"sage-9.6","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"last_ipynb_save":1726257257504,"trust":false,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"a5b74f","input":"","pos":12,"type":"cell"}
+{"cell_type":"markdown","id":"1b8bb8","input":"### Instructions\nComplete the Section 2.5.2 Chemical Kinetics Project. Use complete sentences and appropriate mathematical notation.  The first edition listed each part as a Modeling Exercise and the second edition lists each part as a Modeling Question.  There is a final Summary Exercise that I have added.\n\nWhen the submission is ready to be graded, rename the file from **P02.ipynb** to **GRADE P02.ipynb**.. If two or three students worked together, only one student should do the renaming.  The instructor will electronically collect your notebook sometime after the deadline.","pos":1,"type":"cell"}
+{"cell_type":"markdown","id":"2bc341","input":"### Group Members\nReplace this text with the names of the members of your group.","pos":2,"type":"cell"}
+{"cell_type":"markdown","id":"3664f0","input":"### Modeling Exercise 5.2.6 or Modeling Question 2.5.21 (20 points)","pos":9,"type":"cell"}
+{"cell_type":"markdown","id":"4f1f30","input":"### Modeling Exercise 5.2.1 or Modeling Question 2.5.13 (10 points)","pos":4,"type":"cell"}
+{"cell_type":"markdown","id":"565e20","input":"### Modeling Exercise 5.2.5 or Modeling Question 2.5.18 (10 points)","pos":8,"type":"cell"}
+{"cell_type":"markdown","id":"5a27f9","input":"### Modeling Exercise 5.2.3 or Modeling Question 2.5.16  (10 points)","pos":6,"type":"cell"}
+{"cell_type":"markdown","id":"66d0ad","input":"# P02 Chemical Kinetics","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"8a7024","input":"### Modeling Exercise 5.2.2 or Modeling Question 2.5.14 (10 points)","pos":5,"type":"cell"}
+{"cell_type":"markdown","id":"90832a","input":"### Modeling Exercise 5.2.4 or Modeling Question 2.5.17 (10 points)","pos":7,"type":"cell"}
+{"cell_type":"markdown","id":"e1a453","input":"### Acknowledgements\nReplace this text with either (1) an acknowledgment of any person who gave you assistance and/or any resource that was used, or (2) a statement that you did not use any outside assistance.","pos":3,"type":"cell"}
+{"cell_type":"markdown","id":"e9565d","input":"### Summary Exercise (10 points)\nSummarize your results for the three chemical reactions by filling in this table with the chosen order and best fit values for the two parameters $k$ and $y(0)$.\n\n$\\begin{array}{lcll}\n\\text{Chemical} & \\text{Order} & \\text{Best Fit } k & \\text{Best Fit } y(0)  \\\\\nH_2O_2           &                     &                          &  \\\\\nC_4H_6           &                     &                          &   \\\\\nN_2O_5           &                     &                          &  \\\\\n\\end{array}$","pos":11,"type":"cell"}
+{"cell_type":"markdown","id":"f65b38","input":"### Modeling Exercise 5.2.7 or Modeling Question 2.5.23 (20 points)","pos":10,"type":"cell"}
+{"id":0,"time":1726239302515,"type":"user"}
+{"last_load":1726239302772,"type":"file"}

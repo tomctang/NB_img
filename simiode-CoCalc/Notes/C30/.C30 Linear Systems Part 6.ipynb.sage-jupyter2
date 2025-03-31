@@ -1,0 +1,18 @@
+{"args":["--to","cocalc-html"],"start":1731068455931,"state":"done","time":1731068455971,"type":"nbconvert"}
+{"backend_state":"ready","kernel":"sage-9.7","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"last_backend_state":1731065740337,"last_ipynb_save":1731069091597,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.10.5"}},"trust":false,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"332507","input":"c1 = 0; c2 = 0; k1 = 2; k2 = 1; m1 = 2; m2 = 1\nA = matrix([[0, 1, 0, 0],[-(k1+k2)/m1, -c1/m1, k2/m1, 0], [0, 0, 0, 1], [k2/m2, 0, -k2/m2, -c1/m2]]); show(A)\nshow(A.eigenspaces_right())","pos":10,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"872130","input":"var('t')\nx = function('x')(t)\ny = function('y')(t)\nde1 = diff(x, t) == -5*x + 3*y + sin(t)\nde2 = diff(y, t) ==    x - 3*y \ngsoln = desolve_system([de1, de2], [x,y], ivar = t); show(gsoln)","pos":5,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"884b09","input":"c1 = 0; c2 = 0; k1 = 2; k2 = 1; m1 = 2; m2 = 1\nvar('t')\nw1 = function('w1')(t)\nw2 = function('w2')(t)\nw3 = function('w3')(t)\nw4 = function('w4')(t)\nde1 = diff(w1, t) == w2\nde2 = diff(w2, t) == -(k1+k2)/m1*w1 - c1/m1*w2 + k2/m1*w3\nde3 = diff(w3, t) == w4\nde4 = diff(w4, t) == k2/m2*w1 - k2/m2*w3 - c1/m2*w4\nsol = desolve_system([de1, de2, de3, de4], vars = [w1, w2, w3, w4], ivar = t)\nw1sol(t) = sol[0].rhs(); show(w1sol(t))\nw2sol(t) = sol[1].rhs(); show(w2sol(t))\nw3sol(t) = sol[2].rhs(); show(w3sol(t))\nw4sol(t) = sol[3].rhs(); show(w4sol(t))","pos":12,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d536e4","input":"ssoln = desolve_system([de1, de2], [x,y], ivar = t, ics = (0, 0, 0))\nxsoln(t) = ssoln[0].rhs()\nysoln(t) = ssoln[1].rhs()\nparametric_plot([xsoln, ysoln], (0,10))","pos":6,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"dc224a","input":"plot([xsoln, ysoln], (0,10))","pos":7,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"fed8f1","input":"var('a b c d e f g h')\nsolve([-c == -5*a + 3*b + 1, -d == a - 3*b, a == -5*c + 3*d, b == c - 3*d, 0 == -5*e + 3*f, 0 == e - 3*f + 1, e == -5*g + 3*h, f == g - 3*h], [a, b, c, d, e, f, g, h])","pos":4,"type":"cell"}
+{"cell_type":"markdown","id":"2b4138","input":"## Double Harmonic Oscillator","pos":8,"type":"cell"}
+{"cell_type":"markdown","id":"75d4a6","input":"## Linear Systems Review","pos":1,"type":"cell"}
+{"cell_type":"markdown","id":"7db9ff","input":"#### Find the General Solution","pos":11,"type":"cell"}
+{"cell_type":"markdown","id":"96bd87","input":"#### Find a specific solution ","pos":13,"type":"cell"}
+{"cell_type":"markdown","id":"a2ced4","input":"#### Calculate the eigenvalues and eigenvectors.","pos":9,"type":"cell"}
+{"cell_type":"markdown","id":"b8b9d1","input":"Problem: $\\begin{bmatrix} x' \\\\ y' \\end{bmatrix} = \\begin{bmatrix*}[r] -5 & 3 \\\\ 1 & -3 \\end{bmatrix*} \\begin{bmatrix} x \\\\ y \\end{bmatrix} + \\begin{bmatrix} \\sin(t) \\\\ 0 \\end{bmatrix} $.","pos":3,"type":"cell"}
+{"cell_type":"markdown","id":"d463ff","input":"# C30 Linear Systems Part 6","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"e3d70b","input":"## Nonhomogeneous Linear Systems","pos":2,"type":"cell"}
+{"id":0,"time":1731065740207,"type":"user"}
+{"last_load":1731065740333,"type":"file"}

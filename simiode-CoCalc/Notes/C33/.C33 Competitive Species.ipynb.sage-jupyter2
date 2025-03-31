@@ -1,0 +1,13 @@
+{"args":["--to","cocalc-html"],"start":1668793070650,"state":"done","time":1668793070683,"type":"nbconvert"}
+{"backend_state":"ready","kernel":"sage-9.7","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"fc2cb3","input":"","pos":14,"type":"cell"}
+{"cell_type":"code","id":"1af30d","input":"forget(); assume(a > 0, b > 0, c > 0, d > 0, m > 0, n > 0, a > c*n, b > d*m)\n[bool(a > c*n), bool(a - c*n > 0), bool(a - c*n + b - d*m > 0), bool((a - c*n) * (b - d*m) > 0)]","pos":13,"scrolled":true,"type":"cell"}
+{"cell_type":"code","id":"6d2050","input":"JJ = J(cx0, cy0)\nshow(JJ)\nT = factor(JJ.trace()); show(T)\nD = factor(JJ.det()); show(D)\nP = factor(T^2 - 4*D); show(P)","pos":9,"type":"cell"}
+{"cell_type":"code","id":"b33fdd","input":"var('a b c d m n')\nJ(x0, y0) = matrix([[a-(2*a/m)*x0-c*y0, -c*x0], [-d*y0, b-(2*b/n)*y0-d*x0]])\nJJ = J(0, n)\nshow(JJ)\nT = JJ.trace(); show(T)\nD = JJ.det(); show(D)\nP = factor(T^2 - 4*D); show(P)","pos":8,"type":"cell"}
+{"cell_type":"code","id":"bb69a2","input":"var('a b c d m n x y')\nsoln = solve([1 == x/m + c/a*y, 1 == y/n + d/b*x], [x, y])[0]\nshow(soln)\ncx0 = soln[0].rhs(); cy0 = soln[1].rhs()","pos":4,"type":"cell"}
+{"cell_type":"code","id":"bcd06b","input":"Pnum = P.numerator()/(a*b)\nQnum = a*b*(a - c*n - b + d*m)^2 + 4*(a - c*n)*(b - d*m)*c*d*m*n; show(Qnum)\nexpand(Pnum-Qnum)","pos":11,"type":"cell"}
+{"cell_type":"markdown","id":"cedf1e","input":"### Equilibrium Point Analysis","pos":5,"type":"cell"}
+{"cell_type":"markdown","id":"dd0782","input":"# C33 Competitive Species Model","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"f31e72","input":"### Equilibrium Points","pos":3,"type":"cell"}
+{"id":0,"time":1668792918055,"type":"user"}
+{"last_load":1668792918278,"type":"file"}
