@@ -1,9 +1,0 @@
-{"args":["--to","cocalc-html"],"start":1729257504057,"state":"done","time":1729257522597,"type":"nbconvert"}
-{"backend_state":"ready","kernel":"sage-9.7","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"last_backend_state":1729257328102,"last_ipynb_save":1729257584878,"trust":false,"type":"settings"}
-{"cell_type":"markdown","id":"3592dd","input":"**Laplace Transform Existence.**  Many but not all functions have Laplace transforms.\n\n**Theorem 5.2.1.** If $f(t)$ is defined for $t \\geq 0$, piecewise continuous, and is exponential of order $a$ (satisfies for some constant $a$ and constant $M \\geq 0$ the inequality $|f(t)| \\leq Me^{at}$ for all $t \\geq 0$), then the Laplace transform $\\mathcal{L}(f)(s)$ exists for all $s > a$.","pos":1.5,"type":"cell"}
-{"cell_type":"markdown","id":"c027c0","input":"**Text Example 5.9.** Solve $u''(t) + 4u'(t) + 20u(t) = 0$ with initial conditions $u(0) = 2$ and $u'(0) = 4$.","pos":1.75,"type":"cell"}
-{"cell_type":"markdown","id":"f920b7","input":"# C21 Laplace Transforms Part 2","pos":0,"type":"cell"}
-{"cell_type":"markdown","id":"f94e9e","input":"**Text Example 5.8.** Solve $u''(t) + 4u'(t) + 3u(t) = 0$ with initial conditions $u(0) = 2$ and $u'(0) = 4$.","pos":2,"type":"cell"}
-{"cell_type":"markdown","id":"fba641","input":"**Rules Summary and Preview.**\n\n$ \\qquad \\def\\arraystretch{1.4}\n\\begin{array}{lcl}\n\\text{Function} & \\text{Laplace Transform}\\\\ \\hline\nf(t) &  \\int_{0}^{\\infty} e^{-st}f(t) \\, dt \\\\\ne^{at} & 1/(s-a) \\\\\nt^n & n!/s^{n+1} \\\\\naf(t) + bg(t) & aF(s) + bG(s) \\\\\nf'(t) & sF(s) - f(0) \\\\\n\\cos(bt) & s/(s^2 + b^2) \\\\\n\\sin(bt) & b/(s^2 + b^2) \\\\\ne^{at}f(t) & F(s-a) \\\\\n\\end{array}$","pos":1,"type":"cell"}
-{"id":0,"time":1729257374078,"type":"user"}
-{"last_load":1729257328098,"type":"file"}
